@@ -45,7 +45,7 @@ public class LoginPage extends BaseClass {
 		DatabaseConnection dbcon = new DatabaseConnection();
 		addOtp.sendKeys(
 				dbcon.databaseConnection("SELECT * FROM `otps` WHERE phone=+919320127298  ORDER BY id desc LIMIT 1"));
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		submitBtn.click();
 		Thread.sleep(2000);
 		Select drpEmail = new Select(driver.findElement(By.xpath("//select[@id='email-dropdown-select']")));
