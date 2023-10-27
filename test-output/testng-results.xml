@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-27T12:22:53 IST" name="Default suite" finished-at="2023-10-27T12:23:14 IST" duration-ms="20822">
+    <groups>
+    </groups>
+    <test started-at="2023-10-27T12:22:53 IST" name="Default test" finished-at="2023-10-27T12:23:14 IST" duration-ms="20822">
+      <class name="testcases.FirstTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FirstTest@16eb3ea3]" started-at="2023-10-27T12:22:53 IST" name="setUp" finished-at="2023-10-27T12:22:58 IST" duration-ms="4721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginToWeb()[pri:1, instance:testcases.FirstTest@16eb3ea3]" started-at="2023-10-27T12:22:58 IST" name="loginToWeb" finished-at="2023-10-27T12:23:06 IST" duration-ms="8653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToWeb -->
+        <test-method signature="selectCampaignForWithdrwal()[pri:2, instance:testcases.FirstTest@16eb3ea3]" started-at="2023-10-27T12:23:06 IST" name="selectCampaignForWithdrwal" finished-at="2023-10-27T12:23:10 IST" duration-ms="4211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCampaignForWithdrwal -->
+        <test-method signature="raiseRequestForWithdrwal()[pri:3, instance:testcases.FirstTest@16eb3ea3]" started-at="2023-10-27T12:23:10 IST" name="raiseRequestForWithdrwal" finished-at="2023-10-27T12:23:14 IST" duration-ms="3143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- raiseRequestForWithdrwal -->
+      </class> <!-- testcases.FirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
