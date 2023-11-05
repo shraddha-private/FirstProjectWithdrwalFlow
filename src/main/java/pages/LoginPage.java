@@ -31,6 +31,9 @@ public class LoginPage extends BaseClass {
 
 	@FindBy(xpath = "//button[@id='new-login-email-dropdown-submit']")
 	WebElement submitBtnLst;
+	
+	@FindBy(xpath = "//button[@id='new-login-email-dropdown-submit']")
+	WebElement test;
 
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
